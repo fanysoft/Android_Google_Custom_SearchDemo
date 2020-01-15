@@ -67,13 +67,11 @@ public class MainActivity extends Activity {
 
                 // Your Google API key
                 // TODO replace with your value
-                //String key="AIzaSyAY4lFujVxjP.........";
-                String key="AIzaSyBZdsVKDN-i8Ayh3lFHvgOVrV0AH-5LOw0";
+                String key="AIzaSyAY4lFujVxjP.........";
 
                 // Your Google Search Engine ID
                 // TODO replace with your value
-                //String cx = "0084928477647518.........";
-                String cx = "008492847764751849638:0dqsv4vjwh4";
+                String cx = "0084928477647518.........";
 
                 String urlString = "https://www.googleapis.com/customsearch/v1?q=" + searchStringNoSpaces + "&key=" + key + "&cx=" + cx + "&alt=json";
                 URL url = null;
