@@ -1,0 +1,52 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cz.vancura.searchapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:10:5-47
+8        android:minSdkVersion="23"
+8-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:10:5-47
+9        android:targetSdkVersion="28" />
+9-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:10:15-44
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:7:5-67
+11-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:8:5-79
+12-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:8:22-76
+13
+14    <application
+14-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:12:5-25:19
+15        android:allowBackup="true"
+15-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:13:9-35
+16        android:debuggable="true"
+17        android:icon="@drawable/ic_launcher"
+17-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:14:9-45
+18        android:label="@string/app_name"
+18-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:15:9-41
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:16:9-40
+21        <activity
+21-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:17:9-24:20
+22            android:name="cz.vancura.searchapp.MainActivity"
+22-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:18:13-41
+23            android:label="@string/app_name" >
+23-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:19:13-45
+24            <intent-filter>
+24-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:20:13-23:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:21:17-69
+25-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:21:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:22:17-77
+27-->/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/src/main/AndroidManifest.xml:22:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>

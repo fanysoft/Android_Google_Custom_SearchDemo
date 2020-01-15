@@ -1,0 +1,4 @@
+#Wed Jan 15 10:40:07 CET 2020
+base.0=/Users/josefvancura/Desktop/Programing/Android/PepaTeorie/Android_Google_Custom_SearchDemo-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
