@@ -1,5 +1,5 @@
 # Android_Google_Custom_SearchDemo
-Android demo for Google Search, updated 
+Android demo for Google Search
 
 Tutorial
 http://www.vancura.cz/?p=578
